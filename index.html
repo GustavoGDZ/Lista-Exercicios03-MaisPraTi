@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+PraTi - Primeira Página</title>      
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="destaque">Missão e Galeria de Imagens</h1>
+        <p id="importante">Essa é a primeira página</p>
+    </header>
+    <main>
+        <h2>Missão</h2>
+        <p>Minha missão na Terra é aprender com profundidade, transformar conhecimento em soluções úteis, e ajudar pessoas a enxergar possibilidades onde antes viam limitações, com empatia, criatividade e coragem.</p>
+
+        <h2>Visão</h2>
+        <p>Ser um desenvolvedor capaz de criar soluções inteligentes que melhorem a vida das pessoas, unindo tecnologia, empatia e inovação para transformar o mundo de forma acessível e significativa.</p>
+    </main>   
+    <section class="container-estilo">
+        <h2>Principais Pontos Turísticos do Brasil</h2>
+    </section>
+
+    <div class="galeria-container">
+    <div class="galeria">
+      <div class="item">
+        <img src="/img/cataratas-do-iguaçu.jpg" alt="Imagem 1">
+        <p>Cataratas do Iguaçu</p>
+      </div>
+      <div class="item">
+        <img src="/img/chapada-diamantina.jpg" alt="Imagem 2">
+        <p>Chapada Diamantina</p>
+      </div>
+      <div class="item">
+        <img src="/img/chapada-dos-veadeiros.jpg" alt="Imagem 3">
+        <p>Chapada dos Veadeiros</p>
+      </div>
+      <div class="item">
+        <img src="/img/cristo-redentor.jpg" alt="Imagem 4">
+        <p>Cristo Redentor</p>
+      </div>
+      <div class="item">
+        <img src="/img/elevador-lacerda.jpg" alt="Imagem 5">
+        <p>Elevador Lacerda</p>
+      </div>
+      <div class="item">
+        <img src="/img/fernando-de-noronha.jpg" alt="Imagem 6">
+        <p>Fernando de Noronha</p>
+      </div>
+      <div class="item">
+        <img src="/img/jardim-botanico.jpg" alt="Imagem 7">
+        <p>Jardim Botânico</p>
+      </div>
+      <div class="item">
+        <img src="/img/lençois-maranhenses.jpg" alt="Imagem 8">
+        <p>Lençóis Maranhenses</p>
+      </div>
+    </div>
+  </div>
+    <!-- Botão do Menu Hamburger -->
+  <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<!-- Navegação -->
+  <nav class="menu-nav" id="menuNav">
+      <a href="/index.html">Home</a>
+      <a href="/listas.html">Hobbies</a>
+      <a href="/feedback.html">Feedback</a>
+  </nav>
+
+    <footer>
+        <p>&copy; 2025 +PraTi. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+          const menu = document.getElementById("menuNav");
+           menu.classList.toggle("show");
+          }
+    </script>
+</body>
+</html>
